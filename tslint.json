@@ -1,0 +1,55 @@
+{
+  "defaultSeverity": "warning",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**"
+    ]
+  },
+  "rules": {
+    "no-empty-interface": false,
+    "class-name": true,
+    "no-var-requires": true,
+    "no-var-keyword": true,
+    "no-duplicate-variable": true,
+    "no-shadowed-variable": true,
+    "no-use-before-declare": true,
+    "unified-signatures": true,
+    "no-conditional-assignment": true,
+    "no-invalid-this": false,
+    "no-string-throw": true,
+    "typeof-compare": true,
+    "use-isnan": true,
+    "prefer-const": true,
+    "interface-over-type-literal": true,
+    "new-parens": true,
+    "no-angle-bracket-type-assertion": true,
+    "one-line": true,
+    "whitespace": [true,
+      "check-branch", "check-decl", "check-operator", "check-separator", "check-type", "check-typecast"
+    ],
+
+    "object-literal-sort-keys": false,
+    "object-literal-key-quotes": [true, "as-needed"],
+    "quotemark": false,
+    "interface-name": [true, "never-prefix"],
+    "ordered-imports": false,
+    "trailing-comma": false,
+    "no-trailing-whitespace": false,
+    "no-console": false,
+    "max-classes-per-file": false,
+    "member-ordering": false,
+    "member-access": false,
+    "ban-types": [true,
+      ["Boolean", "Avoid using the `Boolean` type. Did you mean `boolean`?"],
+      ["Number", "Avoid using the `Number` type. Did you mean `number`?"],
+      ["String", "Avoid using the `String` type. Did you mean `string`?"],
+      ["Symbol", "Avoid using the `Symbol` type. Did you mean `symbol`?"]
+    ],
+    "no-reference": false,
+    "variable-name": false
+  }
+}
+
